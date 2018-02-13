@@ -300,6 +300,8 @@ input[type=submit] {
 
   #main-container {
     padding-top: 0;
+    margin-left: 2%;
+    margin-right: 2%;
   }
 
   .auth-image {
