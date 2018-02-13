@@ -247,10 +247,15 @@ input[type=submit] {
 
   .main-section {
     width: 55%;
+    max-width: 100%;
   }
 
   .auth-image {
     float: none;
+    width: 100%;
+  }
+
+  .work {
     width: 100%;
   }
 }
@@ -275,6 +280,10 @@ input[type=submit] {
     overflow: auto;
     max-width: 100%;
   }
+
+  .work {
+    width: 46%;
+  }
 }
 
 @media screen and (max-width: 640px) {
@@ -293,6 +302,14 @@ input[type=submit] {
     text-align: center;
   }
 
+  nav a {
+    padding-left: 10%;
+    padding-right: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: unset;
+  }
+
   .container {
    margin-left: 0;
    margin-right: 0;
@@ -306,6 +323,10 @@ input[type=submit] {
 
   .auth-image {
     float: none;
+    width: 100%;
+  }
+
+  .work {
     width: 100%;
   }
 }
